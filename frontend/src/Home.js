@@ -55,12 +55,12 @@ function Home() {
         direction={["column", "row"]}
       >
         <Card
-          amount={5000}
+          amount={420}
           img={"https://m.media-amazon.com/images/I/71-1Shs1erL._SY695_.jpg"}
           checkoutHandler={checkoutHandler}
         />
         <Card
-          amount={5000}
+          amount={110}
           img={
             "https://m.media-amazon.com/images/I/41PaaZS6l4L._SX300_SY300_QL70_FMwebp_.jpg"
           }
