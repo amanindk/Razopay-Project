@@ -7,7 +7,7 @@ export const checkout = async (req, res) => {
   try {
     const options = {
       // amount: Number(req.body.amount * 100),
-      amount: 500 ,
+      amount: 500,
       currency: "INR",
       // receipt: "Order_rcptid_11",
     };
@@ -20,7 +20,6 @@ export const checkout = async (req, res) => {
       success: true,
       order,
     });
-
   } catch (error) {
     console.error("Error creating order:", error);
     res.status(500).json({
